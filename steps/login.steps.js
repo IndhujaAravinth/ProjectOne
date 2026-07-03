@@ -10,7 +10,6 @@ When ('user enters username "will" and password "will"', async ({ page }) => {
   await page.locator('//input[@name="password"]').fill('will');
 });
 
-
 When ('user clicks the Login button', async ({ page }) => {
   await page.locator('//button[@id="login-button"]').click();
 });
